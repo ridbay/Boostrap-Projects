@@ -1,0 +1,28 @@
+.app-header{
+    background-color: brown;
+    height: 200px;
+}
+
+.app-hero{
+    background-color: rgb(241, 60, 60);
+    
+}
+
+.app-feature{
+    background-color: blue;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+
+.app-footer{
+   background-color: green;
+   height: 300px; 
+}
+
+.app-footer, .app-header{
+    margin-bottom: 0;
+}
+
+.app-feature.app-section{
+    background-color: greenyellow;
+}
