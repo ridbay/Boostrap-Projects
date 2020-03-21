@@ -15,6 +15,9 @@ body{
     justify-content: center;
     line-height: 27px;
 }
+.hero-img {
+    
+}
 .app-feature{
     background-color: blue;
     min-height: 300px;
