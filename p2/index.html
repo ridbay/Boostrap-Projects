@@ -25,63 +25,59 @@
   <!-- Start your project here-->
   <header>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+    <nav class="navbar navbar-expand-lg navbar-dark indigo">
 
       <!-- Navbar brand -->
+      <div class="container">
+        <div class="navbar-brand">
+          <img src="./img/ridbay-logo.jpg" alt="Logo" height=15% width=15%>
+        </div>
 
-      <div class="navbar-brand">
-        <img src="./img/ridbay-logo.jpg" alt="Logo" height=15% width=15%>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu dropdown-indigo" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+          </ul>
+          <!-- Links -->
+        </div>
+        <!-- Collapsible content -->
       </div>
 
-      <!-- Collapse button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="basicExampleNav">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-
-        </ul>
-        <!-- Links -->
-
-        <form class="form-inline">
-          <div class="md-form my-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          </div>
-        </form>
-      </div>
-      <!-- Collapsible content -->
 
     </nav>
     <!--/.Navbar-->
   </header>
-  <main>
+  <main class="mt-5">
     <!--Main container-->
     <div class="container">
 
@@ -89,9 +85,9 @@
       <div class="row">
 
         <!--Grid column-->
-        <div class="col-md-7">
-          <div class="view overlay z-depth-1-half">
-            <img src="./img/ridbayy.jpg" alt="Ridbay" class="card-img-top" width=30% height=30%>
+        <div class="col-md-7 mb-4">
+          <div class="view overlay z-depth-1-half" width=30% height=30%>
+            <img src="./img/ridbayy.jpg" alt="Ridbay" class="card-img-top" >
             <div class="mask rgba-white-light"></div>
           </div>
 
@@ -100,13 +96,13 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-5">
+        <div class="col-md-5 md-4">
           <h2>Some awesome heading</h2>
           <hr>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus laboriosam ducimus ipsum
             reiciendis amet facere, at in cupiditate! Architecto minus praesentium voluptates neque qui eligendi
             corporis nam commodi deleniti!</p>
-          <a href="#" class="btn btn-primary">Get it Now!</a>
+          <a href="#" class="btn btn-indigo">Get it Now!</a>
 
 
 
@@ -120,7 +116,7 @@
       <div class="row">
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-4 col-md-12 mb-4">
           <div class="card">
             <div class="view overlay">
               <img src="./img/photo.jpg" alt="" class="card-img-top">
@@ -135,7 +131,7 @@
             <div class="card-body">
               <h4 class="card-title">Card Title</h4>
               <p class="card-text">Some text to build on the card title and make up the bulk of the card's content</p>
-              <a href="#!" class="btn btn-primary">Button</a>
+              <a href="#!" class="btn btn-indigo">Button</a>
             </div>
           </div>
 
@@ -144,7 +140,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 mb-4">
 
           <div class="card">
             <div class="view overlay">
@@ -160,7 +156,7 @@
             <div class="card-body">
               <h4 class="card-title">Card Title</h4>
               <p class="card-text">Some text to build on the card title and make up the bulk of the card's content</p>
-              <a href="#!" class="btn btn-primary">Button</a>
+              <a href="#!" class="btn btn-indigo">Button</a>
             </div>
           </div>
 
@@ -168,7 +164,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 mb-4">
 
           <div class="card">
             <div class="view overlay">
@@ -184,7 +180,7 @@
             <div class="card-body">
               <h4 class="card-title">Card Title</h4>
               <p class="card-text">Some text to build on the card title and make up the bulk of the card's content</p>
-              <a href="#!" class="btn btn-primary">Button</a>
+              <a href="#!" class="btn btn-indigo">Button</a>
             </div>
           </div>
 
@@ -197,8 +193,8 @@
     </div>
     <!--Main container-->
   </main>
-  <footer class="page-footer font-small blue pt-4 mt-4">
-    <div class="container-fluid text-center text-md-left">
+  <footer class="page-footer font-small indigo pt-4 mt-4">
+    <div class="container text-center text-md-left">
       <div class="row">
         <div class="col-md-6 mt-md-0 mt-3">
           <h5 class="text-uppercase"> Footer Content</h5>
