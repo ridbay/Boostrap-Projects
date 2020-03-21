@@ -8,10 +8,13 @@ body{
 }
 
 .app-hero{
-    background-color: rgb(241, 60, 60);
-    
+    background-color: rgb(241, 60, 60);  
 }
 
+.hero-text{
+    justify-content: center;
+    line-height: 27px;
+}
 .app-feature{
     background-color: blue;
     min-height: 300px;
